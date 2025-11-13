@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pygbm"
 version = "0.1.0"
 description = "Python package for geometric Brownian motion simulations"
-authors = [{name = "Alexander Blake-Martin", email = "alexbm173@gmail.com"}]
+authors = [{name = "Alexander Blake Martín", email = "alexbm173@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
