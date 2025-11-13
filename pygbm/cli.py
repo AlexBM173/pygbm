@@ -6,6 +6,14 @@ import argparse
 from .gbm_simulation import GBMSimulator
 
 def main():
+    """
+    Main function to parse command-line arguments and run the GBM simulation.
+
+    Args:
+        None
+    Returns:
+        None
+    """
     parser = argparse.ArgumentParser(description="Simulate Geometric Brownian Motion")
     parser.add_argument("--y0", type=float, required=True, help="Initial value Y(0)")
     parser.add_argument("--mu", type=float, required=True, help="Drift coefficient")

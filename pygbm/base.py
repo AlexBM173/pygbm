@@ -14,6 +14,14 @@ class BaseGBM:
     """
     
     def __init__(self, y0, mu, sigma):
+        """
+        Initializes the GBM model with given parameters.
+
+        Args:
+            y0 (float): Initial value of the process.
+            mu (float): Drift coefficient.
+            sigma (float): Diffusion coefficient.
+        """
         self.y0 = y0  # Initial value
         self.mu = mu  # Drift coefficient
         self.sigma = sigma  # Diffusion coefficient
