@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.abspath('../..'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'pygbm'
-copyright = '2025, Alexander Blake-Martin'
-author = 'Alexander Blake-Martin'
+copyright = '2025, Alexander Blake Martín'
+author = 'Alexander Blake Martín'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
