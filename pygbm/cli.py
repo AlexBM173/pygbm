@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
 import argparse
-from .base import GBMSimulator
+
+# Use a package-relative import so the module can be executed with
+# `python -m pygbm.cli` or when the package is installed.
+from .gbm_simulation import GBMSimulator
 
 def main():
     parser = argparse.ArgumentParser(description="Simulate Geometric Brownian Motion")

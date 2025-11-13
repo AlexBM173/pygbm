@@ -1,5 +1,5 @@
 
-from .base import GBMSimulator
+from .gbm_simulation import GBMSimulator
 
 
 
